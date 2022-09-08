@@ -20,7 +20,7 @@ To install the plugin, follow these instructions.
 
         composer require perfectwebteam/craft-formie-descriptionhtml
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft Entry Section.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Craft Formie Descriptionhtml.
 
 ## Using Craft Entry Section
 
