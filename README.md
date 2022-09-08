@@ -1,6 +1,6 @@
-# Craft Entry Section plugin for Craft CMS 3.x
+# Craft Formie Descriptino HTML plugin for Craft CMS 3.x
 
-Include the name of the section an entry belongs to in the GraphQL API
+Include the full html for a description field in Formie from the GraphQL API
 
 ![Screenshot](resources/img/plugin-logo.png)
 
