@@ -1,0 +1,42 @@
+{
+    "name": "perfectwebteam/craft-formie-descriptionhtml",
+    "description": "Include the full html for a description field in Formie from the GraphQL API",
+    "type": "craft-plugin",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "craft graphql",
+        "craft formie"
+    ],
+    "support": {
+        "docs": "https://github.com/perfectwebteam/craft-formie-descriptionhtml/blob/master/README.md",
+        "source": "https://github.com/perfectwebteam/craft-formie-descriptionhtml",
+        "issues": "https://github.com/perfectwebteam/craft-formie-descriptionhtml/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Perfect Web Team",
+            "homepage": "https://perfectwebteam.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^4.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "perfectwebteam\\craftformiedescriptionhtml\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Formie Description HTML",
+        "handle": "formie-descriptionhtml",
+        "developer": "Perfect Web Team",
+        "developerUrl": "https://perfectwebteam.com",
+        "documentationUrl": "https://github.com/perfectwebteam/craft-formie-descriptionhtml/blob/master/README.md",
+        "changelogUrl": "https://raw.githubusercontent.com/perfectwebteam/craft-formie-descriptionhtml/master/CHANGELOG.md",
+        "class": "perfectwebteam\\craftformiedescriptionhtml\\CraftFormieDescriptionhtml"
+    }
+}
