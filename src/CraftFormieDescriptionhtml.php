@@ -59,7 +59,7 @@ class CraftFormieDescriptionhtml extends Plugin
             TypeManager::class,
             TypeManager::EVENT_DEFINE_GQL_TYPE_FIELDS,
             static function(DefineGqlTypeFieldsEvent $event) {
-                if ($event->typeName == 'Field_Agree') {
+                if ($event->typeName == 'FieldInterface') {
                     $event->fields['descriptionHtml'] = [
                         'name' => 'descriptionHtml',
                         'type' => Type::string(),
